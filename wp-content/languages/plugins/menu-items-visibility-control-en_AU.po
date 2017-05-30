@@ -1,0 +1,118 @@
+# Translation of Plugins - Menu Item Visibility Control - Development (trunk) in English (Australia)
+# This file is distributed under the same license as the Plugins - Menu Item Visibility Control - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-29 15:13:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_AU\n"
+"Project-Id-Version: Plugins - Menu Item Visibility Control - Development (trunk)\n"
+
+#: includes/walker-nav-menu-edit.php:113
+msgid "Edit"
+msgstr "Edit"
+
+#. Author of the plugin/theme
+msgid "Hassan Derakhshandeh"
+msgstr "Hassan Derakhshandeh"
+
+#. Description of the plugin/theme
+msgid "Control the display logic of individual menu items."
+msgstr "Control the display logic of individual menu items."
+
+#. Plugin Name of the plugin/theme
+msgid "Menu Items Visibility Control"
+msgstr "Menu Items Visibility Control"
+
+#: init.php:62
+msgid "Visibility"
+msgstr "Visibility"
+
+#: includes/walker-nav-menu-edit.php:195
+msgid "Cancel"
+msgstr "Cancel"
+
+#: includes/walker-nav-menu-edit.php:194
+msgid "Remove"
+msgstr "Remove"
+
+#: includes/walker-nav-menu-edit.php:181
+msgid "Original: %s"
+msgstr "Original: %s"
+
+#: includes/walker-nav-menu-edit.php:174
+msgid "To the top"
+msgstr "To the top"
+
+#: includes/walker-nav-menu-edit.php:171
+msgid "Down one"
+msgstr "Down one"
+
+#: includes/walker-nav-menu-edit.php:170
+msgid "Up one"
+msgstr "Up one"
+
+#: includes/walker-nav-menu-edit.php:169
+msgid "Move"
+msgstr "Move"
+
+#: includes/walker-nav-menu-edit.php:161
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr "The description will be displayed in the menu if the current theme supports it."
+
+#: includes/walker-nav-menu-edit.php:159
+msgid "Description"
+msgstr "Description"
+
+#: includes/walker-nav-menu-edit.php:153
+msgid "Link Relationship (XFN)"
+msgstr "Link Relationship (XFN)"
+
+#: includes/walker-nav-menu-edit.php:147
+msgid "CSS Classes (optional)"
+msgstr "CSS Classes (optional)"
+
+#: includes/walker-nav-menu-edit.php:142
+msgid "Open link in a new tab"
+msgstr "Open link in a new tab"
+
+#: includes/walker-nav-menu-edit.php:135
+msgid "Title Attribute"
+msgstr "Title Attribute"
+
+#: includes/walker-nav-menu-edit.php:129
+msgid "Navigation Label"
+msgstr "Navigation Label"
+
+#: includes/walker-nav-menu-edit.php:122
+msgid "URL"
+msgstr "URL"
+
+#: includes/walker-nav-menu-edit.php:113
+msgid "Edit menu item"
+msgstr "Edit menu item"
+
+#: includes/walker-nav-menu-edit.php:109
+msgid "Move down"
+msgstr "Move down"
+
+#: includes/walker-nav-menu-edit.php:96
+msgid "Move up"
+msgstr "Move up"
+
+#: includes/walker-nav-menu-edit.php:81
+msgid "sub item"
+msgstr "sub item"
+
+#. translators: %s: title of menu item in draft status
+#: includes/walker-nav-menu-edit.php:68
+msgid "%s (Pending)"
+msgstr "%s (Pending)"
+
+#. translators: %s: title of menu item which is invalid
+#: includes/walker-nav-menu-edit.php:64
+msgid "%s (Invalid)"
+msgstr "%s (Invalid)"

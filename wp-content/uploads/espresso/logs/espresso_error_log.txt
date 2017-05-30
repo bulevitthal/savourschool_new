@@ -1,0 +1,30 @@
+----------------------------------------------------------------------------------------
+[2017-05-17 09:06:02]  Exception Details
+Message: The "" class is not an instance of EE_Config_Base.
+Code: EE_Config - _verify_config_params - 670
+File: C:\wamp64\www\savourschool_new\wp-content\plugins\event-espresso-core-reg\core\EE_Config.core.php
+Line No: 670
+Stack trace: 
+#0 C:\wamp64\www\savourschool_new\wp-content\plugins\event-espresso-core-reg\core\EE_Config.core.php(881): EE_Config->_verify_config_params('addons', 'promotions', 'EE_Promotions_C...', NULL, Array)
+#1 C:\wamp64\www\savourschool_new\wp-content\plugins\event-espresso-core-reg\core\libraries\plugin_api\EE_Register_Config.lib.php(104): EE_Config->get_config('addons', 'promotions', 'EE_Promotions_C...')
+#2 [internal function]: EE_Register_Config::set_config(Object(EE_Config))
+#3 C:\wamp64\www\savourschool_new\wp-includes\class-wp-hook.php(300): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\savourschool_new\wp-includes\class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#5 C:\wamp64\www\savourschool_new\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\savourschool_new\wp-content\plugins\event-espresso-core-reg\core\EE_Config.core.php(482): do_action('AHEE__EE_Config...', Object(EE_Config), 1)
+#7 C:\wamp64\www\savourschool_new\wp-content\plugins\event-espresso-core-reg\core\admin\PostShortcodeTracking.php(357): EE_Config->update_espresso_config()
+#8 C:\wamp64\www\savourschool_new\wp-content\plugins\event-espresso-core-reg\core\admin\PostShortcodeTracking.php(146): EventEspresso\core\admin\PostShortcodeTracking::update_post_shortcodes('posts')
+#9 [internal function]: EventEspresso\core\admin\PostShortcodeTracking::parse_post_content_on_save(4062, Object(WP_Post))
+#10 C:\wamp64\www\savourschool_new\wp-includes\class-wp-hook.php(300): call_user_func_array(Array, Array)
+#11 C:\wamp64\www\savourschool_new\wp-includes\class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#12 C:\wamp64\www\savourschool_new\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#13 C:\wamp64\www\savourschool_new\wp-content\plugins\wp-all-import-pro\models\import\record.php(3262): do_action('save_post', 4062, Object(WP_Post), false)
+#14 C:\wamp64\www\savourschool_new\wp-content\plugins\wp-all-import-pro\controllers\admin\import.php(2723): PMXI_Import_Record->process('<?xml version="...', '\x00lambda_891', 756, false, '/pmxi_records', 5)
+#15 C:\wamp64\www\savourschool_new\wp-content\plugins\wp-all-import-pro\wp-all-import-pro.php(614): PMXI_Admin_Import->process()
+#16 [internal function]: PMXI_Plugin->adminInit('')
+#17 C:\wamp64\www\savourschool_new\wp-includes\class-wp-hook.php(298): call_user_func_array(Array, Array)
+#18 C:\wamp64\www\savourschool_new\wp-includes\class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#19 C:\wamp64\www\savourschool_new\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#20 C:\wamp64\www\savourschool_new\wp-admin\admin.php(154): do_action('admin_init')
+#21 {main}
+----------------------------------------------------------------------------------------
