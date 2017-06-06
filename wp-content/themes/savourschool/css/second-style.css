@@ -1109,7 +1109,7 @@ div#top-left {
     border: 2px solid #fff;
     cursor: text;
     outline: 0;
-    width: 230px;
+    width: 230px !important;
     background-position: right center;
     color: #000;
 }
@@ -2354,9 +2354,11 @@ body.woocommerce div.product .title_wrapper .product_title.entry-title {
     float: left;
     position: absolute;
     left: 8%;
-    bottom: 45px;
+    bottom: 32px;
 }
-
+#content .my-account h2{
+    min-height: 50px;
+}
 .woocommerce div.product .price_add_to_cart_wrapper #wl-wrapper.wl-button-wrap {
     position: absolute;
     clear: both;

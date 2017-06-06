@@ -108,7 +108,7 @@ get_header(); ?>
 								            );
 								            $countloop = new WP_Query($countargs);
 
-								            $postsPerPage = 3;
+								            $postsPerPage = 12;
 								            $args = array(
 							                    'post_type' => 'online_classes',
 							                    'posts_per_page' => $postsPerPage,
@@ -132,10 +132,10 @@ get_header(); ?>
 											<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 										<?php endif; ?>   
 
-										<?php if ($countloop->post_count > 3) { ?>
+										<?php if ($countloop->post_count > 12) { ?>
 											<div class="more-article clearfix">
 										        <div class="col-sm-12">
-											        <a id="load_more_online_posts" class="btn btn-primary more-video-custom-btn all-video" >More Videos</a>
+											        <a id="load_more_online_posts" class="load_more_online_posts btn btn-primary more-video-custom-btn all-video" >More Videos</a>
 											    </div>
 											</div>
 										<?php }	?>
@@ -150,7 +150,8 @@ get_header(); ?>
 					</div>
 
 				</div>
-				<div class="taxonomy-video-last-section-wrapper all-video">
+				<!-- Forum Comment section -------------->
+				<!--<div class="taxonomy-video-last-section-wrapper all-video">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-1">
@@ -173,7 +174,7 @@ get_header(); ?>
 							</div>
 					    </div>
 					</div>
-				</div>
+				</div>--> 
 			</div>
 			
 		</main><!-- #main -->

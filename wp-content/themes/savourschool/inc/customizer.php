@@ -1034,9 +1034,9 @@ add_action('wp_ajax_category_post_ajax', 'more_category_post_ajax');
 =================================================================================================================================== */
 function online_classes_post_function(){
 
-    $ppp = (isset($_POST["ppp"])) ? $_POST["ppp"] : 3;
+    $ppp = (isset($_POST["ppp"])) ? $_POST["ppp"] : 12;
     $page = (isset($_POST['pageNumber'])) ? $_POST['pageNumber'] : 0;
-    $all_videocount_val = $page * 3;
+    $all_videocount_val = $page * 12;
     
     header("Content-Type: text/html");
     $countargs = array(
@@ -1069,7 +1069,7 @@ function online_classes_post_function(){
 	    <?php if (($allcountloop->post_count - $all_videocount_val) > 0) { ?>
 	     <div class="more-article clearfix">
 	        <div class="col-sm-12">
-		        <a id="load_more_all_online_posts" class="btn btn-primary more-video-custom-btn all-video" >More Videos</a>
+		        <a id="load_more_all_online_posts" class="load_more_all_online_posts btn btn-primary more-video-custom-btn all-video" >More Videos</a>
 		    </div>
 		</div>
 		<?php }	?>

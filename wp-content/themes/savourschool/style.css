@@ -2456,9 +2456,9 @@ table.tkt-slctr-tbl{
     clear: both;
 }
 .online-class-grid .vc_gitem-zone {
-    background-size: 170px 95px !important;
+    background-size: 100% 170px !important;
     background-color: #fff !important;
-    background-position: center 40px !important;
+    background-position: center top !important;
 }
 .online-class-grid .vc_gitem-zone h4{
 	font-size: 17px;
@@ -2862,16 +2862,21 @@ li.video-category-list a:hover{
 
 .video-cat-img-section {
     background-color: rgb(255, 249, 252);
+        max-width: 292px;
 }
 
 .video-cat-img-section img {
     margin: 0 auto;
+    width: 100%;
+    height: 170px;
 }
 
 .video-cat-title-section h1 {
     min-height: 55px;
 }
-
+.woocommerce ul.products li.product a img{
+	max-height: 130px !important;
+}
 h4.content-online-class-title a {
     font-size: 17px;
     color: #251a22;
@@ -2886,12 +2891,15 @@ h4.content-online-class-title:hover {
 .online-cls-video-section {
     border: 2px solid #dcd0d7;
     background-color: #fff9fc;
-    padding: 40px 30px 0px 30px;
+    padding: 0;
 }
 
 .video-cat-title-section {
-    padding: 5px 0px 8px 0px;
+    padding: 5px 30px 8px 30px;
     border-bottom: 1px solid #f2ecef;
+}
+.video-cat-date-time-section{
+	padding:0 30px;
 }
 
 h4.content-online-class-title a:hover {

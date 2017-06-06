@@ -303,7 +303,7 @@ jQuery(document).ready(function($) {
 
 jQuery(document).ready(function($) {
 
-    var ppp = 3; // Post per page
+    var ppp = 12; // Post per page
     var pageNumber = 1;
 
     function load_all_online_posts(){
@@ -320,9 +320,9 @@ jQuery(document).ready(function($) {
                 var $data = $(data);
                 if($data.length){
                     $("#ajax-all-video-post-list").append($data);
-                    $("#load_more_online_posts").hide();
+                    $(".load_more_online_posts").hide();
                 } else{
-                    $("#load_more_online_posts").hide();
+                    $(".load_more_online_posts").hide();
                 }
             },
             error : function(jqXHR, textStatus, errorThrown) {
@@ -333,17 +333,17 @@ jQuery(document).ready(function($) {
         return false;
     }
 
-    $("#load_more_online_posts").on("click",function(){ // When btn is pressed.
-        $("#ajax-all-video-post-list").find("#load_more_online_posts").css("display", "none");
-        $("#load_more_all_online_posts").hide(); // Disable the button, temp.
-        $("#load_more_all_online_posts").find("#load_more_all_online_posts").css("display", "none");
+    $(".load_more_online_posts").on("click",function(){ // When btn is pressed.
+        $("#ajax-all-video-post-list").find(".load_more_online_posts").css("display", "none");
+        $(".load_more_all_online_posts").hide(); // Disable the button, temp.
+        $(".load_more_all_online_posts").find(".load_more_all_online_posts").css("display", "none");
         load_all_online_posts();
     });
 
-    $("#load_more_all_online_posts").live("click", function(){
-        $("#ajax-all-video-post-list").find("#load_more_online_posts").css("display", "none");
-        $("#load_more_all_online_posts").hide(); // Disable the button, temp.
-        $("#load_more_all_online_posts").find("#load_more_all_online_posts").css("display", "none");
+    $(".load_more_all_online_posts").live("click", function(){
+        $("#ajax-all-video-post-list").find(".load_more_online_posts").css("display", "none");
+        $(".load_more_all_online_posts").hide(); // Disable the button, temp.
+        $(".load_more_all_online_posts").find(".load_more_all_online_posts").css("display", "none");
         load_all_online_posts();
     });
 

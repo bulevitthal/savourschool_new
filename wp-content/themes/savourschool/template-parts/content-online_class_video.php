@@ -16,9 +16,9 @@
 		<div class="online-cls-video-section equalheight">
 			<div class="video-cat-img-section  text-center">
 				<?php if ( has_post_thumbnail() ) { ?>
-					<a href="<?php echo get_permalink( ); ?>"><img src="<?php	the_post_thumbnail_url( 'cat-video-thumb' ); ?>" class="img-responsive"></a>
+					<a href="<?php echo get_permalink( ); ?>"><img src="<?php the_post_thumbnail_url( 'cat-video-thumb' ); ?>" class="img-responsive"></a>
 				<?php	} else { ?>
-					<a href="<?php echo get_permalink( ); ?>"><img src="<?php	get_template_directory_uri() .'/images/dummy.png'; ?>" class="img-responsive"></a>
+					<a href="<?php echo get_permalink( ); ?>"><img src="<?php echo get_template_directory_uri() .'/images/dummy.png'; ?>" class="img-responsive"></a>
 				<?php } 
 				?>
 			</div>
